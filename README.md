@@ -55,6 +55,47 @@ Tugas Membuat script untuk melakukan validasi pada isian form.
 </body>
 </html>
 ```
+``` css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+```
 - Hasil
     
   ![O12](https://github.com/HasbiAssidiki/Lab5Web/assets/115614317/13739c65-8f81-4e0a-a8cc-1ed298c021b5)  

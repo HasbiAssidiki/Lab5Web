@@ -5,6 +5,7 @@ Nim  : 312210448
 Kelas: TI.22.A4
 ```
 Tugas Membuat script untuk melakukan validasi pada isian form.
+- Script HTML
 ``` html
 <!DOCTYPE html>
 <html>
@@ -55,6 +56,7 @@ Tugas Membuat script untuk melakukan validasi pada isian form.
 </body>
 </html>
 ```
+- Style CSS
 ``` css
 body {
     font-family: Arial, sans-serif;
